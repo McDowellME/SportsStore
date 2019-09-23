@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore", "ClothingStore.csproj", "{6DF1D24A-E47F-4C91-BF93-4B009120EA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Tests", "..\XUnitTestProject1\ClothingStore.Tests.csproj", "{FF425334-37E7-4F15-B8FF-724FDAEA65E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF1D24A-E47F-4C91-BF93-4B009120EA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF1D24A-E47F-4C91-BF93-4B009120EA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF1D24A-E47F-4C91-BF93-4B009120EA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF1D24A-E47F-4C91-BF93-4B009120EA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF425334-37E7-4F15-B8FF-724FDAEA65E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF425334-37E7-4F15-B8FF-724FDAEA65E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF425334-37E7-4F15-B8FF-724FDAEA65E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF425334-37E7-4F15-B8FF-724FDAEA65E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3377FD1-9EFD-4BD5-BA85-A50A88161ECD}
+	EndGlobalSection
+EndGlobal
