@@ -7,9 +7,10 @@ namespace ClothingStore.Models
     {
         private ApplicationDbContext context;
 
-        public EFOrderRepository (ApplicationDbContext ctx)
+        public EFOrderRepository(ApplicationDbContext ctx)
         {
             context = ctx;
+        }
 
 
         public IQueryable<Order> Orders => context.Orders.Include(o => o.Lines).ThenInclude(l => l.Product);
